@@ -28,6 +28,10 @@ export default async function Index() {
         </div>
       </nav>
 
+      <div className="flex flex-col items-center">
+        <p>¿Te gustaría cambiar tu contraseña?</p>
+        <a href="http://localhost:3000/password" className="py-2 px-3 flex rounded-md no-underline bg-btn-background hover:bg-btn-background-hover mt-4">Actualizar</a>
+      </div>
       <div className="animate-in flex-1 flex flex-col gap-20 opacity-0 max-w-4xl px-3">
         <Header />
         <main className="flex-1 flex flex-col gap-6">
