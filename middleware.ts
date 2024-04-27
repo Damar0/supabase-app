@@ -5,9 +5,10 @@ import { createClient } from "@/utils/supabase/middleware";
 const routes = [
   '/password',
   '/pacientes',
+  '/notes',
 ]
 //ejemolo para entrar /product/1  o product/4
-
+ 
 
 export async function middleware(request: NextRequest) {
   try {
