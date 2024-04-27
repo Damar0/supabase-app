@@ -102,7 +102,7 @@ export default function Login({
           required
         />
         <p>¿Olvidaste tu contraseña?</p>
-        <p>click <u><a href="http://localhost:3000/login/link">aquí</a></u> para acceder rapidamente</p>
+        <p>click <u><a href="/login/link">aquí</a></u> para acceder rapidamente</p>
         <button className="bg-green-700 rounded-md px-4 py-2 text-foreground mb-2">
           Sign In
         </button>
